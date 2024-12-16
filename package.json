@@ -1,0 +1,25 @@
+{
+  "name": "market-cap-app",
+  "author": "BearInAHat",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@1.22.19",
+  "scripts": {
+    "start": "turbo run start",
+    "build": "turbo run build",
+    "lint": "turbo run lint"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/css-modules": "^1.0.5",
+    "@types/node": "^22.10.2",
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.6",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "turbo": "^2.3.3"
+  }
+}
